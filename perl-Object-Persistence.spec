@@ -41,3 +41,35 @@ rm -rf %{buildroot}
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.92-6mdv2010.0
++ Revision: 430517
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.92-5mdv2009.0
++ Revision: 258145
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.92-4mdv2009.0
++ Revision: 246258
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.92-2mdv2008.1
++ Revision: 140694
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Jan 12 2007 Andreas Hasenack <andreas@mandriva.com> 0.92-2mdv2007.0
++ Revision: 107888
+- rebuilt
+- using mkrel
+- Import perl-Object-Persistence
+
+* Fri Jul 15 2005 Andreas Hasenack <andreas@mandriva.com> 0.92-1mdk
+- initial Mandriva package
+
